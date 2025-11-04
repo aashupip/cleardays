@@ -1,0 +1,65 @@
+# ========================================
+# robots.txt for ClearDays Eyewear
+# Domains: cleardayseyewear.com & cleardayseyewear.in
+# Purpose: Allow full Google crawling, block junk/private paths
+# ========================================
+
+User-agent: *
+Allow: /
+Allow:/index.html
+Allow:/README.md
+# Allow all content (homepage, pages, images, etc.)
+Allow: /page/
+Allow: /page/mobile.html
+Allow: /page/pc.html
+Allow: /page/images/
+
+# Explicitly allow CSS, JS, fonts, and assets (if any)
+Allow: /*.css$
+Allow: /*.js$
+Allow: /*.png$
+Allow: /*.jpg$
+Allow: /*.jpeg$
+Allow: /*.webp$
+Allow: /*.svg$
+Allow: /*.woff2$
+Allow: /*.ttf$
+
+# Block encrypted manifest files (security & bloat prevention)
+Disallow: /encrypted-manifest-*.json
+
+# Block cache, temp, or dev files
+Disallow: /cache/
+Disallow: /temp/
+Disallow: /debug/
+Disallow: /*.log$
+
+# Block duplicate or thin content
+Disallow: /?*preview=true
+Disallow: /*?utm_*
+
+# Prevent indexing of internal search or filters (if exist later)
+Disallow: /search
+Disallow: /*?q=
+Disallow: /*?filter=
+
+# Block PWA/service worker files if not needed for SEO
+# (manifest.json & favicon are allowed via Allow above)
+Disallow: /sw.js
+Disallow: /workbox-*.js
+
+# === Sitemap (Critical for Google) ===
+Sitemap: https://cleardayseyewear.in/sitemap.xml
+Sitemap: https://cleardayseyewear.com/sitemap.xml
+
+# === Google-specific bots (optional but recommended) ===
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /
+
+User-agent: Googlebot-Mobile
+Allow: /
+
+# === End of robots.txt ===
