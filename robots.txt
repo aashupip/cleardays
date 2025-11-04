@@ -1,0 +1,14 @@
+# Allow all search engines to crawl your GitHub Pages site
+User-agent: *
+Allow: /
+
+# Block GitHub-specific paths (not part of your public site)
+Disallow: /LICENSE
+Disallow: /README.md
+Disallow: /CNAME
+
+# Sitemap location
+Sitemap: https://cleardayseyewear.com/sitemap.xml
+
+# Host reference
+Host: cleardayseyewear.com
