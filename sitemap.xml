@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset 
+  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <!-- Homepage -->
+  <url>
+    <loc>https://cleardayseyewear.com/</loc>
+    <lastmod>2025-11-07</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>1.00</priority>
+  </url>
+
+  <!-- About Us -->
+  <url>
+    <loc>https://cleardayseyewear.com/about.html</loc>
+    <lastmod>2025-11-07</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.95</priority>
+  </url>
+
+  <!-- Mobile Page -->
+  <url>
+    <loc>https://cleardayseyewear.com/mobile.html</loc>
+    <lastmod>2025-11-07</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.90</priority>
+  </url>
+
+  <!-- PC Page -->
+  <url>
+    <loc>https://cleardayseyewear.com/pc.html</loc>
+    <lastmod>2025-11-07</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.90</priority>
+  </url>
+
+  <!-- Image Directory -->
+  <url>
+    <loc>https://cleardayseyewear.com/page/images/</loc>
+    <lastmod>2025-11-07</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.70</priority>
+  </url>
+
+</urlset>

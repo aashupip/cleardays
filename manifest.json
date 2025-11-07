@@ -1,0 +1,80 @@
+{
+  "name": "ClearDays Eyewear",
+  "short_name": "ClearDays Nayan Jyoti Eyewear Eyecare",
+  "description": "ClearDays Eyewear — Premium eyeglasses, sunglasses, and blue light lenses. Powered by NayanJyoti Eyecare Gwalior.",
+  "start_url": "/?utm_source=web_app_manifest",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#ffffff",
+  "theme_color": "#000000",
+  "lang": "en-IN",
+  "dir": "ltr",
+  "categories": ["shopping", "health", "eyewear", "optical", "fashion"],
+  "prefer_related_applications": false,
+
+  "icons": [
+    {
+      "src": "/favicon.png",
+      "sizes": "72x72",
+      "type": "image/png"
+    },
+    {
+      "src": "/favicon.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    },
+    {
+      "src": "/favicon.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    },
+    {
+      "src": "/favicon.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/favicon.png",
+      "sizes": "256x256",
+      "type": "image/png"
+    },
+    {
+      "src": "/favicon.png",
+      "sizes": "384x384",
+      "type": "image/png"
+    },
+    {
+      "src": "/favicon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable any"
+    }
+  ],
+
+  "screenshots": [
+    {
+      "src": "/eyewear-preview.jpg",
+      "type": "image/jpg",
+      "sizes": "1080x1920",
+      "form_factor": "narrow",
+      "label": "Home screen view"
+    },
+    {
+      "src": "/eyewear-preview.jpg",
+      "type": "image/jpg",
+      "sizes": "1080x1920",
+      "form_factor": "narrow",
+      "label": "Product listing view"
+    }
+  ],
+
+  "related_applications": [
+    {
+      "platform": "play",
+      "url": "https://play.google.com/store/apps/details?id=com.cleardayseyewear",
+      "id": "com.cleardayseyewear"
+    }
+  ]
+}

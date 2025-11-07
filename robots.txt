@@ -1,0 +1,90 @@
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: BraveBot
+Allow: /
+
+User-agent: Qwantify
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+User-agent: YandexBot
+Allow: /
+
+# --- Facebook, Instagram, WhatsApp (Meta) ---
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: Facebot
+Allow: /
+
+User-agent: WhatsApp
+Allow: /
+
+User-agent: WhatsApp/2.19.81 A
+Allow: /
+
+User-agent: Instagram
+Allow: /
+
+# --- Twitter (X.com) ---
+User-agent: Twitterbot
+Allow: /
+
+# --- LinkedIn ---
+User-agent: LinkedInBot
+Allow: /
+
+# --- Pinterest ---
+User-agent: Pinterestbot
+Allow: /
+
+# --- Telegram ---
+User-agent: TelegramBot
+Allow: /
+
+# --- Discord ---
+User-agent: Discordbot
+Allow: /
+
+# --- Other Common Preview Crawlers ---
+User-agent: Slackbot
+Allow: /
+
+User-agent: SkypeUriPreview
+Allow: /
+
+# --- Backup: Generic Allow for All Other Bots ---
+User-agent: *
+Allow: /
+
+# ===============================
+# ✅ Important Pages (Explicitly Allowed)
+# ===============================
+Allow: /about.html
+Allow: /index.html
+Allow: /favicon.png
+Allow: /eyewear-preview.jpg
+
+# ===============================
+# 🗺️ Sitemap Declaration
+# ===============================
+Sitemap: https://cleardayseyewear.com/sitemap.xml
+
+# Optional: Allow README file (GitHub-hosted)
+Allow: /README.md
+
+# Block GitHub or non-public files
+Disallow: /LICENSE
+Disallow: /CNAME
+
+# Host reference (Primary domain)
+Host: cleardayseyewear.com
